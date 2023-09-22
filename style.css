@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.hero img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    filter: contrast(0.3);
+}
+
+.hero-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-content h1,
+.hero-content h3 {
+    text-align: center;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #f0394d;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.navbar button {
+    background-color: #c02e3e;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.navbar button i {
+    color: white;
+    font-size: 2rem;
+}
+
+.line {
+    background-color: #f0394d;
+    width: 100px;
+    height: 2px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.story p {
+    text-align: center;
+    color: blue;
+    width: 71%;
+    height: auto;
+
+}
+
+.vaishri-img img {
+    width: auto;
+    height: 70vh;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.life-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
